@@ -1,1 +1,19 @@
-Hello World
+<html>
+
+	<head>
+	</head>
+
+	<body>
+		<button type="button" onclick="cleanhouseInterface.makeToast()" >Click Me!</button>
+		<input id="inputText" type="text" value="temp">
+	</body>
+
+	<script type="text/javascript">
+		
+		function getPush() {
+			$("inputText").val = cleanhouseInterface.getPushHash();
+		}
+
+	</script>
+
+</html>
