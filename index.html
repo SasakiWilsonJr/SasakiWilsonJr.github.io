@@ -4,14 +4,14 @@
 	</head>
 
 	<body>
-		<button type="button" onclick="getPush()" >Click Me!</button>
+		<button type="button" onclick="getHash()" >Click Me!</button>
 		<input id="inputText" type="text" value="temp">
 	</body>
 
 	<script type="text/javascript">
 		
-		function getPush() {
-			$("inputText").val = cleanhouseInterface.getPushHash();
+		function getHash() {
+			document.getElementById("inputText").value = cleanhouseInterface.getPushHash();
 		}
 
 	</script>
